@@ -1,0 +1,73 @@
+@keyframes green {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .green {
+    animation: green 1s infinite;
+    background-color: hsl(146, 91%, 40%)!important;
+    color:#ffffff;
+    font-weight: 700;
+  }
+
+  .red {
+    background-color: hsl(0, 96%, 46%)!important;
+    color:#ffffff;
+    font-weight: 700;
+  }
+  .orange {
+    background-color: hsl(44, 95%, 49%)!important;
+    color:#ffffff;
+    font-weight: 700;
+  }
+  button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* learning_video_section */
+
+.jigsawlivesteaming{
+  background-color: #fff;
+}
+.learning_video_section{
+  position:relative;
+ width:auto;
+}
+.studentsteamingtask {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.studentestemingoral {
+  position: relative;
+  background-color: #fff;
+  padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.studentestemingorallist{
+  background-color: #fff;
+}
+ .studentestemingorallist {
+  background-color: #fff;
+  position: relative;
+  padding: 5px;
+}
+.studentestemingorallist ul.studentlist li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
