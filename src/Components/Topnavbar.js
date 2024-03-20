@@ -67,7 +67,7 @@ const Topnavbar = () => {
             aria-expanded="false"
           >
             <h6 className="mr-2 d-none d-lg-inline text-gray-800  font-weight-bold">{Username}</h6>
-            <img className="img-profile rounded-circle" src="img/undraw_profile.svg" alt="Profile" />
+            {/* <img className="img-profile rounded-circle" src="img/undraw_profile.svg" alt="Profile" /> */}
           </a>
           <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
             <NavLink className="dropdown-item" to='/Profile'>
