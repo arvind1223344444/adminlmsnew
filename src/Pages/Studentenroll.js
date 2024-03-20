@@ -38,11 +38,6 @@ export default function Studentenroll() {
      <h1 className="h5 mb-0 text-gray-800 font-weight-bold">Teacher Course</h1>
     </div>
 
-     <p className="mb-4">
-       DataTables is a third-party plugin that is used to generate the demo table below.
-       For more information about DataTables, please visit 
-     </p>
-
      <div className="card shadow mb-4">
        <div className="card-header py-3">
          <h6 className="m-0 font-weight-bold text-primary"> Courses</h6>

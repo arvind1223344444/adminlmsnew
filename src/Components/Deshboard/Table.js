@@ -27,19 +27,6 @@ export default function Table() {
     <>
     <div className="container-fluid">
      
-
-      <div className="d-sm-flex align-items-center justify-content-between mb-3">
-      <h1 className="h5 mb-0 text-gray-800 font-weight-bold">User Profile</h1>
-      <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-        <i className="fas fa-download fa-sm text-white-50"></i> Edit  Profile
-      </a>
-    </div>
-
-      <p className="mb-4">
-        DataTables is a third-party plugin that is used to generate the demo table below.
-        For more information about DataTables, please visit 
-      </p>
-
       <div className="card shadow mb-4">
         <div className="card-header py-3">
           <h6 className="m-0 font-weight-bold text-primary">User Profile</h6>
